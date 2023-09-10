@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/wp4902400.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.878);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 100px rgba(0, 255, 153, 0.758);
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 40px;
+}
+
+.input-container {
+    margin-bottom: 45px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(0, 149, 255);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+p {
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: 0.5s;
+}
